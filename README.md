@@ -123,7 +123,7 @@ We believe in the power of open source to build the best World Cup experience. C
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is open-source and open for contribution.
 
 ---
 
