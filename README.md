@@ -54,13 +54,13 @@ Follow these steps to get a copy of the project up and running on your local mac
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/yourusername/ticket-ma.git
-    cd ticket-ma
+    git clone https://github.com/nizarelidrysy//Ticket-Management-System.git
+    cd Ticket-Management-System
     ```
 
 2.  **Install dependencies**
     ```bash
-    npm install
+    npm install (if not available)
     ```
 
 3.  **Run the Backend (PHP)**
@@ -128,6 +128,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 
 <div align="center">
-  <p>Built with ❤️ for the game.</p>
+  <p>Built with ❤️ by Nizar EL IDRYSY 3IIRG3.</p>
   <p><b>Morocco x Spain x Portugal</b></p>
 </div>
