@@ -1,61 +1,16 @@
-# 🏟️ Ticket Management System for WC30
+# React + Vite
 
-## 🚀 Overview
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The **Ticket Management System for WC30** is a comprehensive, scalable, and secure platform dedicated to managing the end-to-end sale, distribution, and validation of tickets for the **FIFA World Cup 2030** matches hosted in **Morocco**.
+Currently, two official plugins are available:
 
-Our system's primary goal is to ensure **fair, secure, and efficient access** for millions of global fans to the world's largest single-sport event, adhering to the highest standards of integrity and performance.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## React Compiler
 
-## ✨ Key Features
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-The platform is designed with the following core functionalities to manage the complex logistics of global event ticketing:
+## Expanding the ESLint configuration
 
-* **Secure E-Ticketing & Digital Wallet:**
-    * Generation and secure delivery of **mobile-only, anti-fraud digital tickets**.
-    * Tickets are securely linked to a mandatory **Fan ID** for enhanced security and personalization.
-
-* **Real-Time Inventory Management:**
-    * **Dynamic allocation and tracking** of tickets across all host cities and stadiums (e.g., Casablanca, Rabat, Marrakech).
-    * Detailed management by seating categories, price tiers, and match schedules.
-
-* **Global Sales Portal:**
-    * A **robust web and mobile application** designed to handle high-volume traffic during key, time-sensitive ticket sales windows (e.g., initial sales phases, last-minute sales).
-    * Optimized for an excellent global user experience.
-
-* **Payment & Refund Processing:**
-    * Integration with major **international payment gateways** (e.g., Visa, Mastercard) for seamless transactions.
-    * A dedicated system for managing secure settlements and complex refund scenarios, compliant with FIFA and local financial regulations.
-
-* **Access Control Integration:**
-    * Direct, real-time interface with **stadium turnstile systems** for rapid, on-site ticket validation and entry control on match days.
-    * Ensures swift, secure, and accurate fan entry.
-
----
-
-## 🛠️ Technology Stack (Placeholder)
-
-*This section will be updated as the core architecture is finalized. Anticipated technologies include:*
-
-| Category | Potential Technologies |
-| :--- | :--- |
-| **Backend** | Java Spring Boot, Python/Django, Node.js |
-| **Database** | PostgreSQL, MongoDB |
-| **Frontend** | React, Vue.js, or Native Mobile (iOS/Android) |
-| **Cloud/Hosting** | AWS, Google Cloud Platform (GCP) |
-| **Security** | OAuth 2.0, JWT, Custom Anti-Fraud Algorithms |
-
----
-
-## 💻 Getting Started
-
-### Prerequisites
-
-* [List of required software, e.g., Docker, Node.js v18+]
-
----
-
-## 🤝 Contribution
-
-Welcome for contributions!
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
