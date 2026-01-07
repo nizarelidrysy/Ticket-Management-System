@@ -35,6 +35,13 @@ try {
         // Column likely already exists, ignore
     }
 
+    // Attempt to add blockedAt column if it doesn't exist
+    try {
+        $pdo->exec("ALTER TABLE blocked_users ADD COLUMN blockedAt DATETIME DEFAULT CURRENT_TIMESTAMP");
+    } catch (PDOException $e) {
+        // Column likely already exists, ignore
+    }
+
 } catch (PDOException $e) {
     die("Database Connection Error: " . $e->getMessage());
 }

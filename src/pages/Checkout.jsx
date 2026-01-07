@@ -34,7 +34,7 @@ const Checkout = () => {
         // Prepare data for PHP API
         const orderData = {
             ...formData,
-            items: [{
+            tickets: [{
                 id: match.id,
                 title: `${match.teamA.name} vs ${match.teamB.name}`,
                 category,

@@ -36,11 +36,13 @@ if ($method === 'GET') {
     }
 
     try {
-        $stmt = $pdo->prepare("INSERT INTO blocked_users (email, full_name, reason) VALUES (:email, :full_name, :reason)");
+        $blockedAt = date('Y-m-d H:i:s');
+        $stmt = $pdo->prepare("INSERT INTO blocked_users (email, full_name, reason, blockedAt) VALUES (:email, :full_name, :reason, :blockedAt)");
         $stmt->execute([
             ':email' => $data['email'],
             ':full_name' => $data['fullName'] ?? 'Unknown',
-            ':reason' => $data['reason'] ?? 'Admin blocked'
+            ':reason' => $data['reason'] ?? 'Admin blocked',
+            ':blockedAt' => $blockedAt
         ]);
         echo json_encode(['message' => 'User blocked successfully']);
     } catch (PDOException $e) {
