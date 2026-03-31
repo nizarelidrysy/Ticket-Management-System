@@ -128,6 +128,5 @@ This project is open-source and open for contribution.
 ---
 
 <div align="center">
-  <p>Built with ❤️ by Nizar EL IDRYSY 3IIRG3.</p>
-  <p><b>Jan 7, 2026</b></p>
+  <p>Built with ❤️ by Nizar EL IDRYSY.</p>
 </div>
