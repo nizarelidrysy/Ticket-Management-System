@@ -1,4 +1,4 @@
-# 🎫 Ticket.ma | World Cup 2030 Ticketing System
+# Ticket.ma | World Cup 2030 Ticketing System
 
 ![World Cup 2030](https://img.shields.io/badge/World_Cup-2030-emerald?style=for-the-badge) ![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react) ![PHP](https://img.shields.io/badge/PHP-8.0+_SQLite-777BB4?style=for-the-badge&logo=php) ![Status](https://img.shields.io/badge/Status-Production_Ready-success?style=for-the-badge)
 
@@ -6,16 +6,16 @@
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🌍 For Fans (Frontend)
+### For Fans (Frontend)
 -   **Immersive Experience**: Smooth animations, glassmorphism UI, and responsive design built with **Tailwind CSS** and **Framer Motion**.
 -   **Direct Booking**: Simplified "One-Click" checkout flow—no shopping cart friction.
 -   **Smart Search**: Filter matches by team (e.g., "Morocco") or date instantly.
 -   **Dynamic Data**: Real-time stadium info, match schedules, and categorized pricing.
 -   **Multi-Identity Support**: Optimized for international visitors with automated form handling.
 
-### 🛡️ For Administrators (Backend)
+### For Administrators (Backend)
 -   **Secure Dashboard**: Accessed via a "Secret Shield" login with a **Biometric "Face ID" Simulation** authentication flow.
 -   **Order Management**: View, delete, and manage thousands of orders with high-performance formatting.
 -   **Security Controls**: 
@@ -25,7 +25,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 This project is architected for **portability** and **performance**:
 
@@ -42,7 +42,7 @@ This project is architected for **portability** and **performance**:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these steps to get a copy of the project up and running on your local machine.
 
@@ -81,7 +81,7 @@ Follow these steps to get a copy of the project up and running on your local mac
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ticket-ma/
@@ -102,7 +102,7 @@ ticket-ma/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We believe in the power of open source to build the best World Cup experience. Contributions are welcome!
 
